@@ -1,0 +1,26 @@
+body {
+  margin: 20px;
+}
+
+code {
+  background: #d0d0d5;
+}
+
+canvas {
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+body { background: #1b1b32; color: #f5f6f7; font-family: sans-serif; }
+header { text-align: center; }
+canvas { background: #0a0a23; border: 3px solid #f5f6f7; max-width: 100%; }
